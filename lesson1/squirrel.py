@@ -3,4 +3,4 @@ def squirrel(N: int) -> int:
     if N >= 1:
         for i in range (1, N+1):
             factorial = factorial * i
-    return str(factorial)[0]
+    return int(str(factorial)[0])
